@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, {useState, useEffect} from "react";
-import Form from "./Form";
+// import Form from "./Form";
 
 const DisplayData = () => {
     const [data, setData] = useState([]);
@@ -32,10 +32,8 @@ const DisplayData = () => {
                 </tr>
             ))}
         </tbody>
-        3313</table>
+    </table>
         )}
-
-        
         </div>
     );
 
